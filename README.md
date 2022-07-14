@@ -3,17 +3,17 @@ Python Code For 8-Queen Problem Using Genetic Algorithm
 
 This is the code for 8-Queen problem in which I have used genetic algorithm.
 
-Firstly I have generated 4 intial populations as arrays in which the ith element is the number of the row where a queen is placed and where i is the column.
+Firstly, I have generated 4 initial populations as arrays in which the ith element is the number of the row where a queen is placed and where i is the column.
 I have generated unique numbers in every column to optimize it as to eliminate 2 queens in 1 row.
 
-Then I calcluated their fitness as in how many queens are not attacked by other queens and then chose the best 2 from them and applied one point crossover betweent them.
-Then I applied swap mutation on the the best from the 6 currently in hand populations and the fitness is calculated of the one genreated from the mutation.
+Then I calculated their fitness as in how many queens are not attacked by other queens and then chose the best 2 from them and applied one point crossover between them.
+Then I applied swap mutation on the best from the 6 currently in hand populations and the fitness is calculated of the one generated from the mutation.
 
-As now there are 7, so from the I took out 2 best popluations from them as per their fitness.
+As now there are 7, so from the I took out 2 best populations from them as per their fitness.
 
-And finally I applied one point crossover and mutation repeatedly until solution is found.
+And finally, I applied one point crossover and mutation repeatedly until solution is found.
 
-NOTE: Everytime when there are non unique numbers in the array I made them unique to make it more optimized.
+NOTE: Every time when there are non-unique numbers in the array I made them unique to make it more optimized.
 
 Output Sample:
 First population [[2, 7, 6, 8, 1, 5, 4, 3], [6, 5, 7, 8, 2, 1, 4, 3], [2, 5, 6, 8, 3, 1, 4, 7], [1, 6, 4, 3, 2, 8, 5, 7]]
